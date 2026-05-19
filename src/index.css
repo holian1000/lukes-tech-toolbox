@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+body {
+  @apply font-sans bg-gray-50 text-gray-900;
+}
+
+/* Navigation styling */
+.nav-item {
+  @apply cursor-pointer transition-colors duration-150 text-gray-700 hover:text-primary;
+}
